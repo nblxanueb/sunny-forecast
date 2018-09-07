@@ -6,11 +6,12 @@ body {
 }
 
 .logo {
-  width: 25rem;
+  width: 22rem;
 }
 
 #zip {
   border: 2px solid rgba(45, 45, 207, 0.836);
+  color: rgba(0, 0, 0, 0.75);
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   line-height: 1.5rem;
@@ -58,7 +59,7 @@ button {
 }
 
 #current-temp {
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgba(0, 0, 0, 0.75);
 }
 
@@ -68,7 +69,7 @@ button {
 
 #description {
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 #map {

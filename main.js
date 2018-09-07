@@ -36,7 +36,7 @@ const getWeather = () => {
   $("#map").css("visibility", "visible");
 
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?zip=${zip},us&appid=${api}`
+    `https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&appid=${api}`
   )
     .then(response => {
       return response.json();
